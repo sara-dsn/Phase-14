@@ -6,7 +6,7 @@
 
 function verificateur()
 {
- 
+    ton"
  if(nombre<x)
  {
     document.getElementById("label1").innerHTML="Trop petit!";
