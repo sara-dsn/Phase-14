@@ -14,17 +14,16 @@ function verificateur()
  }
  else if (nombre>x)
  {
-    document.write("Trop Grand!")
+    document.getElementById("label1").innerHTML="Trop Grand!";
     console.log("Trop Grand!");
  }
  else if (nombre==x)
  {
-    window.alert("Bien joué! Vous avez trouvé! ");
-    document.write("C'est ça!");
+    document.getElementById("label1").innerHTML="Bien joué! Vous avez trouvé! ";
     console.log("Bien joué! Vous avez trouvé! ");
  }
  else{
-    document.write("Attention le chiffre doit être un entier compris entre 0 et 100 !");
+    document.getElementById("label1").innerHTML="Attention le chiffre doit être un entier compris entre 0 et 100 !";
     console.log("Attention le chiffre doit être un entier compris entre 0 et 100 !");
 }
 };
